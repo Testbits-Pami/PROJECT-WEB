@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1.2_User enters invalid username to login into Orange HRM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aab43f18-6827-49c6-8d9d-221ff5515c8b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8830410b-960a-4be2-bccf-d34301cc071a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c576c0f-b02c-41b2-a510-d9b0bbd365b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>664d4eba-8a0a-459a-99e2-100882bdffc3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>8830410b-960a-4be2-bccf-d34301cc071a</id>
+      <masked>false</masked>
+      <name>invalidUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid credentials'</defaultValue>
+      <description></description>
+      <id>0c576c0f-b02c-41b2-a510-d9b0bbd365b8</id>
+      <masked>false</masked>
+      <name>invalidCredsMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Password</defaultValue>
+      <description></description>
+      <id>664d4eba-8a0a-459a-99e2-100882bdffc3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

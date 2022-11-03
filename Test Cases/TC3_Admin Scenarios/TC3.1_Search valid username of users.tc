@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3.1_Search valid username of users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>809a9394-e9ee-461f-886e-891c974439f0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3f3ae4a0-2b72-4bb9-bb50-54994588f0b6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Search Users Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40d3dbd8-c0f7-45b6-b3d1-738968e43a06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3f3ae4a0-2b72-4bb9-bb50-54994588f0b6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>9d4f6d80-da66-4662-b829-93ee0bf4b3f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Users'</defaultValue>
+      <description></description>
+      <id>40d3dbd8-c0f7-45b6-b3d1-738968e43a06</id>
+      <masked>false</masked>
+      <name>listOption</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nina.Patel'</defaultValue>
+      <description></description>
+      <id>9d4f6d80-da66-4662-b829-93ee0bf4b3f4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
