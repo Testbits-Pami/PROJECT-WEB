@@ -27,10 +27,10 @@ WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.
 
 WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/List_User_Role'))
 
-WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.1_UserRole_ListOptions/ListOption_UserRole_Admin', 
+WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.1_UserRole_ListOptions/ListOption_UserRole', 
         [('userRole') : userRole]), 2)
 
-WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.1_UserRole_ListOptions/ListOption_UserRole_Admin', 
+WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.1_UserRole_ListOptions/ListOption_UserRole', 
         [('userRole') : userRole]))
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_Employee_Name'), 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.
 
 WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/List_Status'))
 
-WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.3_Status_ListOptions/ListOption_Status_Enabled', 
+WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.3_Status_ListOptions/ListOption_Status', 
         [('userStatus') : userStatus]))
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Username'), 

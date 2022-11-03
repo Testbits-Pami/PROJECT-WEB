@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ListOption_UserRole_Admin</name>
+   <name>ListOption_Status</name>
    <tag></tag>
-   <elementGuidId>612f6007-afec-4485-9a15-d27a1e1c198b</elementGuidId>
+   <elementGuidId>ab176698-9945-44c2-b4ba-23a79fca7234</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div[2]/div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[@role = 'option' and @class = 'oxd-select-option' and (text() = '${userRole}' or . = '${userRole}')]</value>
+         <value>//div[@role = 'option' and @class = 'oxd-select-option' and (text() = '${userStatus}' or . = '${userStatus}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2dbf691f-b28a-4e8a-8b6d-78bbcaaeb772</webElementGuid>
+      <webElementGuid>262487e2-4295-46ef-8b25-3689c36c83ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>eda5c7e2-933a-44ab-8070-1884070f48e6</webElementGuid>
+      <webElementGuid>06cbde4c-2fcf-47e3-9b74-fccc949b9f87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-option</value>
-      <webElementGuid>fe1d4152-20f9-4e5b-9517-ca5034012426</webElementGuid>
+      <webElementGuid>de0e16c4-15a9-41e4-9976-24ee4ba1472b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${userRole}</value>
-      <webElementGuid>d0bee537-1de7-475c-b44e-403f721e279d</webElementGuid>
+      <value>${userStatus}</value>
+      <webElementGuid>6f680878-e67b-4054-b3ac-885fcd16ed69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +57,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option&quot;]</value>
-      <webElementGuid>09f33612-6864-4e9d-bda4-aa3c80ee0f5e</webElementGuid>
+      <webElementGuid>373b802a-6031-43e4-b473-68c23e936b28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]</value>
-      <webElementGuid>8555cb99-7963-49ca-94ca-cac55842ffa6</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div[2]/div[2]</value>
+      <webElementGuid>ca906058-2a95-4366-8917-72d2b2cc244b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,15 +73,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Select --'])[1]/following::div[4]</value>
-      <webElementGuid>9a5350c1-b28a-44a2-ae7f-71cbbe164c49</webElementGuid>
+      <webElementGuid>8e180429-70ae-48b9-8fb1-9f02bb5b6830</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ESS'])[1]/preceding::div[1]</value>
-      <webElementGuid>9ba96c61-16f9-4c26-903e-cc0d57aa9f0b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disabled'])[1]/preceding::div[1]</value>
+      <webElementGuid>3ad6b707-aa58-48c7-ad0a-8aa1b307a4d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,14 +89,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div[2]</value>
-      <webElementGuid>ef77b0e0-5740-4f2f-ac5e-28a7ea388c2c</webElementGuid>
+      <webElementGuid>22de1dee-957f-4563-9b8d-6005558efc7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>8eca3d36-9c00-494f-814f-fc073d6be312</webElementGuid>
+      <value>//div[(text() = 'Enabled' or . = 'Enabled')]</value>
+      <webElementGuid>88096aa3-5079-48c0-9ae2-d2c02508d943</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
