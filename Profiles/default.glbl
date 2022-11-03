@@ -19,4 +19,9 @@
       <initValue>'https://opensource-demo.orangehrmlive.com/'</initValue>
       <name>Url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[]</initValue>
+      <name>usernameList</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

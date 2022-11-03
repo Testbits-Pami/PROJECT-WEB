@@ -1,0 +1,33 @@
+{
+  "keywordFileContentHash": "A091DBCC57E2BB7AA67187E1A9954B51",
+  "keywordClasses": [
+    {
+      "name": "web.ProjectWeb",
+      "keywordMethods": [
+        {
+          "name": "populateGlobalList",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "writeUsernameListToExcel",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
