@@ -22,6 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>f9683678-9463-4ca7-a7bc-d04a66a3c81e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-topbar-body-nav-tab-item</value>
+      <webElementGuid>e8fb5b05-b897-45f1-bddc-87e8220c3aaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Management </value>
+      <webElementGuid>abe505f9-077f-414d-8085-fb326323f9cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab --parent --visited&quot;]/span[@class=&quot;oxd-topbar-body-nav-tab-item&quot;]</value>
+      <webElementGuid>81a700a3-7b79-4d1c-97d7-00bf7ce54a8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
       <webElementGuid>43815df3-f98b-4dc4-a256-b9dca1f3d153</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +65,7 @@
       <webElementGuid>e76ea808-45a0-44ef-a5bc-deddc8eaa2d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li/span</value>
-      <webElementGuid>05e72c5c-7a4a-4e4f-b5fa-b8e39f433dee</webElementGuid>
+      <webElementGuid>ac713255-3d2a-4232-8b47-216f933e447f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job'])[1]/preceding::span[1]</value>
-      <webElementGuid>6d711eab-886a-45d2-9dcd-be0be7bb11c6</webElementGuid>
+      <webElementGuid>443b2fd8-841e-444f-bc5d-30744a20f6fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/preceding::span[2]</value>
-      <webElementGuid>91d6fb63-a9b2-42b6-ac7b-d10d67586233</webElementGuid>
+      <webElementGuid>cfad6696-d7c9-468e-b7b5-6c6fd8f89641</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li/span</value>
-      <webElementGuid>c6286bc0-37d8-4bac-a275-5839f0d3b233</webElementGuid>
+      <webElementGuid>178b3372-f908-4b07-8b26-83f9f79ce5cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'User Management ' or . = 'User Management ')]</value>
-      <webElementGuid>2f7082d5-cc5a-4c62-9934-6fa790e76e60</webElementGuid>
+      <webElementGuid>4a32dc5a-c918-4959-b072-135d713e35a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

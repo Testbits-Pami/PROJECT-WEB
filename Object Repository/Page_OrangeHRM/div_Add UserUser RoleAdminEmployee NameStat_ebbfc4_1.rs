@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add UserUser RoleAdminEmployee NameStat_ebbfc4_1</name>
+   <tag></tag>
+   <elementGuidId>37daa216-7ebd-4d3e-b845-5b1337e23ea8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-card-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>14486e05-296e-4ca7-9a7a-e319b3e97c5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-card-container</value>
+      <webElementGuid>03c13dcb-8ea5-44e9-ad89-de9ad9791a3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add UserUser RoleAdminEmployee NameStatusEnabledUsernameStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordRequired * Required Cancel  Save </value>
+      <webElementGuid>f521706c-ff4d-4291-9163-74435b85ca36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]</value>
+      <webElementGuid>1a1250a9-0af8-428e-87de-1e197d67ccb2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>8f88c939-f3cc-496e-9511-95085c96b710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::div[5]</value>
+      <webElementGuid>e5fd0cb7-ac36-4cde-9e9b-352ec9785bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/following::div[5]</value>
+      <webElementGuid>b2c1c168-383d-4460-9eb7-f5810aab9d60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>c774e037-2659-4a49-ac31-626f427f7b81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add UserUser RoleAdminEmployee NameStatusEnabledUsernameStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordRequired * Required Cancel  Save ' or . = 'Add UserUser RoleAdminEmployee NameStatusEnabledUsernameStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordRequired * Required Cancel  Save ')]</value>
+      <webElementGuid>e58e5ba0-eb12-4fb2-a326-e77b7ae01bb3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

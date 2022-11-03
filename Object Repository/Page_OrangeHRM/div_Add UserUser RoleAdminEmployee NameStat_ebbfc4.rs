@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add UserUser RoleAdminEmployee NameStat_ebbfc4</name>
+   <tag></tag>
+   <elementGuidId>3cc476d7-8ac9-45d0-96e4-856c509e475a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-layout-context</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a1972eb4-6ded-409e-9fef-29bd7199935a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-layout-context</value>
+      <webElementGuid>50fcc6ed-df0a-45a7-a4ee-a39363aa1075</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add UserUser RoleAdminEmployee NameStatusEnabledUsernameStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm Password * Required Cancel  Save </value>
+      <webElementGuid>f018dd1f-8d2c-4c20-85c5-962a66ce4a32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]</value>
+      <webElementGuid>8f35d4b4-af20-48fd-aba7-567b59950f35</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]</value>
+      <webElementGuid>c8f3d594-a91f-44cd-b9a2-6711238f4299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::div[3]</value>
+      <webElementGuid>78863671-9339-4502-bb7c-7008e600a758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/following::div[3]</value>
+      <webElementGuid>ec1caf49-397f-45cc-b03e-ae1fbdc143b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>90048727-dd96-4dd2-a1a2-8ab7c3b637d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add UserUser RoleAdminEmployee NameStatusEnabledUsernameStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm Password * Required Cancel  Save ' or . = 'Add UserUser RoleAdminEmployee NameStatusEnabledUsernameStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm Password * Required Cancel  Save ')]</value>
+      <webElementGuid>4400ac20-0f9d-402c-abe8-56bf5908bce1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
