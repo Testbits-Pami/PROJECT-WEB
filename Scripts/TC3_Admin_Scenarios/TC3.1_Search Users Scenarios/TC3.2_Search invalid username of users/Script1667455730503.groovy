@@ -17,19 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('0_Common/0.2_Sidebar/SidebarLink_Admin'))
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/List_UserManagement'))
 
-WebUI.setText(findTestObject('1_Login_Page/Input_Username'), invalidUsername)
+WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/4.1.1_UserManagement_ListOptions/ListOption_Users'))
 
-WebUI.setEncryptedText(findTestObject('1_Login_Page/Input_Password'), password)
+WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.1_System_Users_Section/Input_SystemUser_Username', 
+        [('username') : username]), username)
 
-WebUI.click(findTestObject('1_Login_Page/Button_Login'))
+WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.1_System_Users_Section/Button_SystemUser_Search'))
 
-WebUI.verifyElementText(findTestObject('1_Login_Page/1.1_Login_Validation/Text_Invalid_Credentials'), invalidCredsMsg)
+WebUI.verifyElementVisible(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.2_User_Search_Results_Section/Text_No_Records_Found'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('0_Common/0.3_Toast/Toast_No_Records_Found'))
 

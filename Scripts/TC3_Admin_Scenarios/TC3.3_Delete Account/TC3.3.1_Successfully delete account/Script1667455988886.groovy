@@ -17,19 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(GlobalVariable.Url)
-
-WebUI.setText(findTestObject('1_Login_Page/Input_Username'), invalidUsername)
-
-WebUI.setEncryptedText(findTestObject('1_Login_Page/Input_Password'), password)
-
-WebUI.click(findTestObject('1_Login_Page/Button_Login'))
-
-WebUI.verifyElementText(findTestObject('1_Login_Page/1.1_Login_Validation/Text_Invalid_Credentials'), invalidCredsMsg)
-
-WebUI.closeBrowser()
-

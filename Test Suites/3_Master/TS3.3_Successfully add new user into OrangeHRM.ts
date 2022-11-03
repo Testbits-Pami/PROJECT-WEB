@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS2.1_User enters invalid username and incorrect password to login into Orange HRM</name>
+   <name>TS3.3_Successfully add new user into OrangeHRM</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,49 +10,55 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>ce2631ec-6c3f-408f-80ed-be3b45f6e81b</testSuiteGuid>
+   <testSuiteGuid>df229df5-283f-4314-aee0-1ef691f5653a</testSuiteGuid>
    <testCaseLink>
-      <guid>18fa8e7d-c3c6-4362-8b77-0157d71b83d2</guid>
+      <guid>a78ed6d7-db53-4df8-bdf2-7d44e186d123</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC1_Login Scenarios/TC1.2_User enters invalid username to login into Orange HRM</testCaseId>
+      <testCaseId>Test Cases/TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8830410b-960a-4be2-bccf-d34301cc071a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0c576c0f-b02c-41b2-a510-d9b0bbd365b8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>664d4eba-8a0a-459a-99e2-100882bdffc3</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>459dadc9-85ea-4ca2-b3c6-fc46007a28c2</guid>
+      <guid>1a0ae6e8-5c46-41f3-9da9-c01b52e7d9f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC1_Login Scenarios/TC1.3_User enters incorrect password to login into Orange HRM</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <testCaseId>Test Cases/TC3_Admin_Scenarios/TC3.2_Add New Account Scenarios/TC3.2.1_Successfully add new user into OrangeHRM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1fc0ef92-2653-4dc5-8213-15c6318eb575</variableId>
+         <variableId>5518db45-c848-4adc-a0fc-1055f6d3f913</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d2f67a66-140f-4b0c-9fce-0200106d925e</variableId>
+         <variableId>95844d06-c5fa-4cf8-aa49-78684d68dc33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>877b9922-37b9-4a39-9784-d59642ad0154</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9865ab6b-0c4d-4974-82c3-90799993ea88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88380595-d880-4b89-8c55-51c333e61536</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>888308c5-032d-496d-8dda-5553d7d0397a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

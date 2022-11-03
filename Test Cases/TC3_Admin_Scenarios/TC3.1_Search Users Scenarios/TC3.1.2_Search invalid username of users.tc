@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3.1.2_Search invalid username of users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91f0b804-a797-4a9b-99b4-7d64372d0162</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>69563fa7-110f-4021-9b2f-23e96d6ebc43</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Search Users Invalid Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>69563fa7-110f-4021-9b2f-23e96d6ebc43</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>66855d89-39cc-4fd8-93ca-5af2a5b879df</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66855d89-39cc-4fd8-93ca-5af2a5b879df</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
