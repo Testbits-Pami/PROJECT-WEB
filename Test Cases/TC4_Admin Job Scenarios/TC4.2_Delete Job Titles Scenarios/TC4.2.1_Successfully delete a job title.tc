@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4.2.1_Successfully delete a job title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6a41ca5-de32-4ea1-b42c-eab795ad2990</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05da6f78-9ae6-41c5-953d-738e57d869ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05da6f78-9ae6-41c5-953d-738e57d869ff</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+</TestCaseEntity>
