@@ -25,16 +25,19 @@ WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/4.1.2_Job_Lis
 
 def testDataRowNum = findTestData('Delete Multiple Job Title').getRowNumbers()
 
+def jobTitleQty
+
 for (def rowNum = 1; rowNum <= testDataRowNum; rowNum++) {
     WebUI.scrollToElement(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/NearElement_Saved_JobTitle', 
             [('jobTitle') : findTestData('Delete Multiple Job Title').getValue('Job Title', rowNum)]), 3)
 
     WebUI.click(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Checkbox_Element_Saved_JobTitle', 
             [('jobTitle') : findTestData('Delete Multiple Job Title').getValue('Job Title', rowNum)]))
+
+    jobTitleQty = rowNum
 }
 
-WebUI.scrollToElement(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Span_Records_Selected', 
-        [('jobTitleQty') : rowNum.toString()]), 3)
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.HOME))
 
 WebUI.verifyElementVisible(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Button_Delete_Selected'))
 
@@ -48,7 +51,7 @@ WebUI.click(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job 
 WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullyDeleted'), 3)
 
 for (def rowNum = 1; rowNum <= findTestData('Delete Multiple Job Title').getRowNumbers(); rowNum++) {
-    WebUI.scrollToElement(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Element_Saved_JobTitle', 
+    WebUI.scrollToElement(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/NearElement_Saved_JobTitle', 
             [('jobTitle') : findTestData('Delete Multiple Job Title').getValue('Job Title', rowNum)]), 1, FailureHandling.OPTIONAL)
 }
 

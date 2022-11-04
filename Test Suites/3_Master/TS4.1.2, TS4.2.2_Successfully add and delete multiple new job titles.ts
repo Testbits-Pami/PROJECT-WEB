@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS4.1.2_Successfully add multiple new job titles</name>
+   <name>TS4.1.2, TS4.2.2_Successfully add and delete multiple new job titles</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -64,5 +64,12 @@
          <value>Job Note</value>
          <variableId>40b3b969-cab5-43f2-a653-da974567bc37</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bb0d0861-92c1-44fe-a813-d78452186526</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC4_Admin Job Scenarios/TC4.2_Delete Job Titles Scenarios/TC4.2.2_Successfully delete multiple job titles</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
