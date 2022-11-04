@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS4.1.1_Successfully add new job title</name>
+   <name>TS4.1.2_Successfully add multiple new job titles</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,52 +10,59 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>629fba98-75f4-4edb-9d17-ef8c4271eef2</testSuiteGuid>
+   <testSuiteGuid>e2247054-c6ca-44d6-80c2-41dfec8c9915</testSuiteGuid>
    <testCaseLink>
-      <guid>083ba119-7d7e-45a3-bd4b-9d4d656d1c2e</guid>
+      <guid>b1a1d974-eaa5-427f-b79a-161884558b33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2eb6d461-856e-435e-8979-065a78429148</guid>
+      <guid>5366d40f-09b0-47b3-ab83-53b2bc687c58</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC4_Admin Job Scenarios/TC4.1_Add Job Titles Scenarios/TC4.1.1_Successfully add new job title</testCaseId>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>7c95ba71-606b-421f-bf1d-815b27f9db2c</id>
+         <masked>false</masked>
+         <name>jobTitle</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC4_Admin Job Scenarios/TC4.1_Add Job Titles Scenarios/TC4.1.2_Successfully add multiple new job titles</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>2ff912ca-31c7-42b7-b7be-fed4231f9843</id>
+         <id>471c8d7f-2348-48e2-bfe8-431a899cd604</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Add One Job Title</testDataId>
+         <testDataId>Data Files/Add Multiple Job Titles</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>2ff912ca-31c7-42b7-b7be-fed4231f9843</testDataLinkId>
+         <testDataLinkId>471c8d7f-2348-48e2-bfe8-431a899cd604</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Job Title</value>
-         <variableId>53dd5cb1-43b5-4aff-824c-a58e8690df3c</variableId>
+         <variableId>7c95ba71-606b-421f-bf1d-815b27f9db2c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2ff912ca-31c7-42b7-b7be-fed4231f9843</testDataLinkId>
+         <testDataLinkId>471c8d7f-2348-48e2-bfe8-431a899cd604</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Job Description</value>
-         <variableId>a45c007e-b238-48a4-8d7e-a14e9fb32fda</variableId>
+         <variableId>d96edf20-d7b0-485b-9bcc-4be71141d4a2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2ff912ca-31c7-42b7-b7be-fed4231f9843</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Job Note</value>
-         <variableId>49bf0347-0763-424f-8318-b7feda034f55</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>2ff912ca-31c7-42b7-b7be-fed4231f9843</testDataLinkId>
+         <testDataLinkId>471c8d7f-2348-48e2-bfe8-431a899cd604</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Job File</value>
-         <variableId>9ddd679c-1573-482f-8f2b-cfc9c48e37d5</variableId>
+         <variableId>6df7ee35-a076-459b-bae5-c37f6eeadc3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>471c8d7f-2348-48e2-bfe8-431a899cd604</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job Note</value>
+         <variableId>40b3b969-cab5-43f2-a653-da974567bc37</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
