@@ -17,33 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('0_Common/0.2_Sidebar/SidebarLink_Admin'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/List_Job'))
+WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/List_Job'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/ListOption_JobTitles'))
+WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/4.1.2_Job_ListOptions/ListOption_JobTitles'))
 
-WebUI.waitForElementVisible(findTestObject('Page_OrangeHRM/Header_JobTitles'), 0)
+WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Header_JobTitles'), 
+    0)
 
-WebUI.click(findTestObject('Page_OrangeHRM/Button_AddJobTitle'))
+WebUI.click(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Button_AddJobTitle'))
 
-WebUI.waitForElementVisible(findTestObject('Page_OrangeHRM/Header_AddJobTitle'), 0)
+WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Header_AddJobTitle'), 
+    0)
 
-WebUI.setText(findTestObject('Page_OrangeHRM/Input_JobTitle'), jobTitle)
+WebUI.setText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Input_JobTitle'), jobTitle)
 
-WebUI.setText(findTestObject('Page_OrangeHRM/Input_txtArea_JobDescription'), jobDescription)
+WebUI.setText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Input_txtArea_JobDescription'), 
+    jobDescription)
 
-WebUI.uploadFile(findTestObject('Page_OrangeHRM/Input_File_AddJobTitle'), GlobalVariable.path + file)
+WebUI.uploadFile(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Input_File_AddJobTitle'), 
+    GlobalVariable.path + file)
 
-WebUI.setText(findTestObject('Page_OrangeHRM/Input_txtArea_JobNote'), jobNote)
+WebUI.setText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Input_txtArea_JobNote'), 
+    jobNote)
 
-WebUI.click(findTestObject('Page_OrangeHRM/Button_SaveJobTitle'))
+WebUI.click(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Button_SaveJobTitle'))
 
 WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Page_OrangeHRM/Header_JobTitles'), 0)
+WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Header_JobTitles'), 
+    0)
 
-WebUI.scrollToElement(findTestObject('Page_OrangeHRM/NearElement_Saved_JobTitle', [('jobTitle') : jobTitle]), 0)
+WebUI.scrollToElement(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/NearElement_Saved_JobTitle', 
+        [('jobTitle') : jobTitle]), 0)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Element_Saved_JobTitle', [('jobTitle') : jobTitle]), jobTitle)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.1_Job Titles Section/Element_Saved_JobTitle', 
+        [('jobTitle') : jobTitle]), jobTitle)
 

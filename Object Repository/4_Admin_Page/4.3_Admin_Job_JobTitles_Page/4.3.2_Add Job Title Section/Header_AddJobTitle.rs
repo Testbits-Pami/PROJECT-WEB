@@ -6,11 +6,11 @@
    <elementGuidId>55258ca4-8dba-4426-8bcb-1833903f5f5d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>//h6[normalize-space()='Add Job Title']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//h6[normalize-space()='Add Job Title']</value>
       </entry>
    </selectorCollection>
