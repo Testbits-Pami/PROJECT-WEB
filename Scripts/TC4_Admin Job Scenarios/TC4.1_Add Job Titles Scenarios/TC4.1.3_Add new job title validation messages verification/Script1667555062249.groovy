@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('0_Common/0.2_Sidebar/SidebarLink_Admin'))
 
 WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/List_Job'))
