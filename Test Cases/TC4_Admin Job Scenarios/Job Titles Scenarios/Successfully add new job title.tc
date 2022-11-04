@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Successfully add new job title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da277151-e709-4058-96c5-387013e81566</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53dd5cb1-43b5-4aff-824c-a58e8690df3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a45c007e-b238-48a4-8d7e-a14e9fb32fda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49bf0347-0763-424f-8318-b7feda034f55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ddd679c-1573-482f-8f2b-cfc9c48e37d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Job Test 1'</defaultValue>
+      <description></description>
+      <id>53dd5cb1-43b5-4aff-824c-a58e8690df3c</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Description 1'</defaultValue>
+      <description></description>
+      <id>a45c007e-b238-48a4-8d7e-a14e9fb32fda</id>
+      <masked>false</masked>
+      <name>jobDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Note 1'</defaultValue>
+      <description></description>
+      <id>49bf0347-0763-424f-8318-b7feda034f55</id>
+      <masked>false</masked>
+      <name>jobNote</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Test Data 1.xlsx'</defaultValue>
+      <description></description>
+      <id>9ddd679c-1573-482f-8f2b-cfc9c48e37d5</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

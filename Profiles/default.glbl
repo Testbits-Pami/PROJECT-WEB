@@ -24,4 +24,9 @@
       <initValue>[]</initValue>
       <name>usernameList</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\afaa1\\Katalon Studio\\PROJECT-WEB.git\\Data Files\\'</initValue>
+      <name>path</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

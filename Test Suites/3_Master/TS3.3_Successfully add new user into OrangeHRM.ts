@@ -22,7 +22,7 @@
       <guid>1a0ae6e8-5c46-41f3-9da9-c01b52e7d9f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC3_Admin_Scenarios/TC3.2_Add New Account Scenarios/TC3.2.1_Successfully add new user into OrangeHRM</testCaseId>
+      <testCaseId>Test Cases/TC3_Admin User Management Scenarios/TC3.2_Add New Account Scenarios/TC3.2.1_Successfully add new user into OrangeHRM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

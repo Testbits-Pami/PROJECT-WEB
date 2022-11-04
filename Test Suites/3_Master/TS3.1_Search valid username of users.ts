@@ -22,7 +22,7 @@
       <guid>95899a12-b756-4d59-b89b-9d579fa880a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC3_Admin_Scenarios/TC3.1_Search Users Scenarios/TC3.1.1_Search valid username of users</testCaseId>
+      <testCaseId>Test Cases/TC3_Admin User Management Scenarios/TC3.1_Search Users Scenarios/TC3.1.1_Search valid username of users</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

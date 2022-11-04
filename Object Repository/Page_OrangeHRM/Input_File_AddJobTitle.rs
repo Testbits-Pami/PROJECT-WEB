@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_File_AddJobTitle</name>
+   <tag></tag>
+   <elementGuidId>8c960e4f-12df-4190-859a-2d632423106e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[@type='file'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[@type='file'])[1]</value>
+      <webElementGuid>1b4d8052-e103-404d-a10f-8e3ba63defa4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
