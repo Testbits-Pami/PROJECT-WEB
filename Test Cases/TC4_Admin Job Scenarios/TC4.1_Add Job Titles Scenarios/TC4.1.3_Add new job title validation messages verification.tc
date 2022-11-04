@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4.1.3_Add new job title validation messages verification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>481ea508-5b0c-4276-8ea6-324e63cb327f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7d46bb3-59eb-498a-b64b-7519eba40521</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db94a852-7288-41e1-9009-988956a39995</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da5162e2-11fb-43d7-b725-d1ec1297d6dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7f21b9a-8fe5-4b43-818a-ff450d7a27d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa99e579-ac62-4b5b-ad45-7bd7e56ae8c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Required'</defaultValue>
+      <description></description>
+      <id>f7d46bb3-59eb-498a-b64b-7519eba40521</id>
+      <masked>false</masked>
+      <name>requiredInvalidMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>'Already exists'</defaultValue>
+      <description></description>
+      <id>db94a852-7288-41e1-9009-988956a39995</id>
+      <masked>false</masked>
+      <name>existInvalidMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>'Attachment Size Exceeded'</defaultValue>
+      <description></description>
+      <id>da5162e2-11fb-43d7-b725-d1ec1297d6dd</id>
+      <masked>false</masked>
+      <name>exceededInvalidMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Title 1'</defaultValue>
+      <description></description>
+      <id>c7f21b9a-8fe5-4b43-818a-ff450d7a27d0</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Job Test Data 4.txt'</defaultValue>
+      <description></description>
+      <id>fa99e579-ac62-4b5b-ad45-7bd7e56ae8c1</id>
+      <masked>false</masked>
+      <name>jobFile</name>
+   </variable>
+</TestCaseEntity>

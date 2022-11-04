@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Add Multiple Job Titles</name>
+   <name>Add a Job Title Invalid Messages</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>42ce4c86-6061-46c0-a4d0-cdf2f2d1bbe3</dataFileGUID>
+   <dataFileGUID>0716b0e3-9210-497a-9dd1-a58e9e186ecf</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Job+Title+2 Job+Description+2 Job+Test+Data+2.xlsx Job+Note+2</data>
-   <data>Job+Title+3 Job+Description+3 Job+Test+Data+3.xlsx Job+Note+3</data>
+   <data>Job+Title+1 Job+Test+Data+4.txt Required Already+exists Attachment+Size+Exceeded</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Job Title</name>
-      <size>2</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>Job Description</name>
-      <size>2</size>
+      <name>Job File</name>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
-      <name>Job File</name>
-      <size>2</size>
+      <name>Invalid Msg 1</name>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
-      <name>Job Note</name>
-      <size>2</size>
+      <name>Invalid Msg 2</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>Invalid Msg 3</name>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
