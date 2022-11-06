@@ -25,33 +25,33 @@ WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/List_Job'))
 
 WebUI.click(findTestObject('Object Repository/4_Admin_Page/4.1_Admin_Topbar_Navlinks/4.1.2_Job_ListOptions/ListOption_PayGrades'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/Button_Add_PayGrades'))
+WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Button_Add_PayGrades'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/Input_Grade_Name'), gradeName)
+WebUI.setText(findTestObject('Object Repository/4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Input_Grade_Name'), gradeName)
 
-WebUI.click(findTestObject('Page_OrangeHRM/Button_Save_AddPayGrade'))
-
-WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 2)
-
-WebUI.click(findTestObject('Page_OrangeHRM/Button_Add_Currencies'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Span_ListOption_Default_Currencies_Select'))
-
-WebUI.scrollToElement(findTestObject('Page_OrangeHRM/Span_ListOptions_Currencies_MYR'), 0)
-
-WebUI.click(findTestObject('Page_OrangeHRM/Span_ListOptions_Currencies_MYR'))
-
-WebUI.setText(findTestObject('Page_OrangeHRM/Input_MinSalary'), minSalary)
-
-WebUI.setText(findTestObject('Page_OrangeHRM/Input_MaxSalary'), maxSalary)
-
-WebUI.click(findTestObject('Page_OrangeHRM/Button_Save_AddCurrencies'))
+WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Button_Save_AddPayGrade'))
 
 WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 2)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Saved_Record_MYR_Currency'), verifyCurrency)
+WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Button_Add_Currencies'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/Button_Cancel_EditPayGrade'))
+WebUI.click(findTestObject('Object Repository/4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Span_ListOption_Default_Currencies_Select'))
 
-WebUI.scrollToElement(findTestObject('Page_OrangeHRM/Saved_Record_PayGrade', [('gradeName') : gradeName]), 0)
+WebUI.scrollToElement(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Span_ListOptions_Currencies_MYR'), 0)
+
+WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Span_ListOptions_Currencies_MYR'))
+
+WebUI.setText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Input_MinSalary'), minSalary)
+
+WebUI.setText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Input_MaxSalary'), maxSalary)
+
+WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Button_Save_AddCurrencies'))
+
+WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 2)
+
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Saved_Record_MYR_Currency'), verifyCurrency)
+
+WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.3_EditPayGrade_Section/Button_Cancel_EditPayGrade'))
+
+WebUI.scrollToElement(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Saved_Record_PayGrade', [('gradeName') : gradeName]), 0)
 

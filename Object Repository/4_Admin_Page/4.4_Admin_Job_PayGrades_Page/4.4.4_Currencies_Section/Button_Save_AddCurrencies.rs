@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Add_PayGrades</name>
+   <name>Button_Save_AddCurrencies</name>
    <tag></tag>
-   <elementGuidId>5554d261-6c1d-42a3-9e80-d73f5d0086ba</elementGuidId>
+   <elementGuidId>d32714e5-2258-40cd-a1e6-4c1f3df68dca</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'][normalize-space()='Save'])[2]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[normalize-space()='Add'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

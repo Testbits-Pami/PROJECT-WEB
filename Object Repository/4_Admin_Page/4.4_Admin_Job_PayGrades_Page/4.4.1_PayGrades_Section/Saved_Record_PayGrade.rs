@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Save_AddPayGrade</name>
+   <name>Saved_Record_PayGrade</name>
    <tag></tag>
-   <elementGuidId>da1c3603-dc81-4b22-bf1f-e2dbb22cff9f</elementGuidId>
+   <elementGuidId>f2a62b43-ea17-4bab-9aad-ed06a34520f8</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'${gradeName}')]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[normalize-space()='Save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
