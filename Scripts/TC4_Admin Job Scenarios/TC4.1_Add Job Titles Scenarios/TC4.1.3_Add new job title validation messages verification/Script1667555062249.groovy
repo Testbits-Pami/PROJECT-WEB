@@ -33,14 +33,14 @@ WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles
 
 WebUI.click(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Button_SaveJobTitle'))
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Span_Required_JobTitle_InvalidMsg'), requiredInvalidMsg)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Span_Required_JobTitle_InvalidMsg'), requiredInvalidMsg)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Input_JobTitle'), jobTitle)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Span_Already_Exists_JobTitle_InvalidMsg'), existInvalidMsg)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Span_Already_Exists_JobTitle_InvalidMsg'), existInvalidMsg)
 
 WebUI.uploadFile(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Input_File_AddJobTitle'), 
     GlobalVariable.path + jobFile)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Span_Attachment_Size_Exceeded_InvalidMsg'), exceededInvalidMsg)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.3_Admin_Job_JobTitles_Page/4.3.2_Add Job Title Section/Span_Attachment_Size_Exceeded_InvalidMsg'), exceededInvalidMsg)
 

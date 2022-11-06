@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4.3.1_Successfully add new pay grade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3df655-d8f6-4aa9-b975-5558e41ca1ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83768219-327e-43c7-b80f-933c1075cda8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00fd9cfe-a58f-4295-aa8a-dc782c132285</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb18dd36-1b59-454c-9bed-c5b89bd369e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Marhaen'</defaultValue>
+      <description></description>
+      <id>83768219-327e-43c7-b80f-933c1075cda8</id>
+      <masked>false</masked>
+      <name>gradeName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>00fd9cfe-a58f-4295-aa8a-dc782c132285</id>
+      <masked>false</masked>
+      <name>minSalary</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description></description>
+      <id>eb18dd36-1b59-454c-9bed-c5b89bd369e6</id>
+      <masked>false</masked>
+      <name>maxSalary</name>
+   </variable>
+</TestCaseEntity>
