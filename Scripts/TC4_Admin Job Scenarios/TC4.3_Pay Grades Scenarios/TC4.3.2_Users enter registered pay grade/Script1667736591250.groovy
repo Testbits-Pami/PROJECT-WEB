@@ -30,7 +30,7 @@ WebUI.setText(findTestObject('Object Repository/4_Admin_Page/4.4_Admin_Job_PayGr
 
 WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Button_Save_AddPayGrade'))
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Span_AlreadyExists_PayGrade_InvalidMsg'), invalidPayGradeNameMsg)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Span_AlreadyExists_PayGrade_InvalidMsg'), invalidPayGradeNameMsg)
 
 WebUI.verifyElementAttributeValue(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Input_Grade_Name'), 
     'class', 'oxd-input oxd-input--active oxd-input--error', 2)
