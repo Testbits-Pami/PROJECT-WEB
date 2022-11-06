@@ -44,18 +44,37 @@ import cucumber.api.java.en.When
 
 
 
-class addNewPayGrade {
+class PayGrade {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@Given("I successfully navigate to Pay Grades Page")
+	def I_navigate_to_admin_pay_grades_page() {
+		WebUI.click(findTestObject('0_Common/0.2_Sidebar/SidebarLink_Admin'))
+		WebUI.click(findTestObject('4_Admin_Page/4.1_Admin_Topbar_Navlinks/List_Job'))
+		WebUI.click(findTestObject('Object Repository/4_Admin_Page/4.1_Admin_Topbar_Navlinks/4.1.2_Job_ListOptions/ListOption_PayGrades'))
+		WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Button_Add_PayGrades'))
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@When("I click Add button on Pay Grades page to add a new pay grade")
+	def I_click_add_button_on_add_pay_grade_page() {
+		WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Button_Add_PayGrades'))
+	}
+
+	@And("I enter a new pay grade name (.*)")
+	def I_enter_a_new_pay_grade_name(String gradeName) {
+		WebUI.setText(findTestObject('Object Repository/4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Input_Grade_Name'),
+				gradeName)
+	}
+
+	@And("I click Save button to save the pay grade name")
+	def I_click_save_button_to_save_the_pay_grade_name() {
+		WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Button_Save_AddPayGrade'))
+	}
+
+	@Then("I successfully add a new pay grade name and bring to edit pay grade page")
+	def I_successfully_verify_new_pay_grade_name() {
+		WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 2)
 	}
 
 	@Then("I verify the (.*) in step")
