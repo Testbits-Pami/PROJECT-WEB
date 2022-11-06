@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS4.3.1, TS4.3.2_Successfully add new pay grade and try to add existing pay grade</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>c9a79c45-e52f-49c3-86e4-fd67300961a0</testSuiteGuid>
+   <testCaseLink>
+      <guid>65d10d05-6d6d-43ca-be72-9b7e32bd93ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e99d422-a2fc-4bc9-be0f-e8d49b1bdb02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC4_Admin Job Scenarios/TC4.3_Pay Grades Scenarios/TC4.3.1_Successfully add new pay grade</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83768219-327e-43c7-b80f-933c1075cda8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00fd9cfe-a58f-4295-aa8a-dc782c132285</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb18dd36-1b59-454c-9bed-c5b89bd369e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09b7893f-aa0e-4f8f-b519-9e0be655d8c2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8abd2134-b57e-4ad3-9f4f-18226aef2f2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC4_Admin Job Scenarios/TC4.3_Pay Grades Scenarios/TC4.3.2_Users enter registered pay grade</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>38b79941-2f01-41ed-b1d2-c104adfe0e6d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3539dbb1-019b-4a15-b536-12f98d94e972</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

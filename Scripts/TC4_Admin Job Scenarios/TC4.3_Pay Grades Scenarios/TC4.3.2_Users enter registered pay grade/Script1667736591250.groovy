@@ -30,30 +30,10 @@ WebUI.setText(findTestObject('Object Repository/4_Admin_Page/4.4_Admin_Job_PayGr
 
 WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Button_Save_AddPayGrade'))
 
-WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 2)
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/Span_AlreadyExists_PayGrade_InvalidMsg'), invalidPayGradeNameMsg)
 
-WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Button_Add_Currencies'))
+WebUI.verifyElementAttributeValue(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.2_AddPayGrade_Section/Input_Grade_Name'), 
+    'class', 'oxd-input oxd-input--active oxd-input--error', 2)
 
-WebUI.click(findTestObject('Object Repository/4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Span_ListOption_Default_Currencies_Select'))
-
-WebUI.scrollToElement(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Span_ListOptions_Currencies_MYR'), 
-    0)
-
-WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Span_ListOptions_Currencies_MYR'))
-
-WebUI.setText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Input_MinSalary'), minSalary)
-
-WebUI.setText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Input_MaxSalary'), maxSalary)
-
-WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Button_Save_AddCurrencies'))
-
-WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullySaved'), 2)
-
-WebUI.verifyElementText(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.4_Currencies_Section/Saved_Record_MYR_Currency'), 
-    verifyCurrency)
-
-WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.3_EditPayGrade_Section/Button_Cancel_EditPayGrade'))
-
-WebUI.scrollToElement(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Saved_Record_PayGrade', 
-        [('gradeName') : gradeName]), 0)
+WebUI.closeBrowser()
 
