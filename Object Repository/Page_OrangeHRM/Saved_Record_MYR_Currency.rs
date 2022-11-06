@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Malaysian Ringgit</name>
+   <name>Saved_Record_MYR_Currency</name>
    <tag></tag>
    <elementGuidId>97ac91bc-0ec9-4597-99e1-76a17aa0864d</elementGuidId>
    <selectorCollection>
