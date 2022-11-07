@@ -109,10 +109,10 @@ class PayGrade {
 	def I_click_cancel_button_on_edit_pay_grade_section() {
 		WebUI.click(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.3_EditPayGrade_Section/Button_Cancel_EditPayGrade'))
 	}
-	
+
 	@Then("I verify the new pay grade name (.*) on the pay grade records")
 	def I_verify_the_new_pay_grade_on_the_pay_grade_records(String gradeName) {
 		WebUI.scrollToElement(findTestObject('4_Admin_Page/4.4_Admin_Job_PayGrades_Page/4.4.1_PayGrades_Section/Saved_Record_PayGrade',
-			[('gradeName') : gradeName]), 0)
+				[('gradeName') : gradeName]), 0)
 	}
 }
