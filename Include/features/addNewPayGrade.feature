@@ -29,8 +29,7 @@ Feature: Successfully add new pay grade
     Then I successfully add a new pay grade name and bring to edit pay grade page
     When I click Add button on the currencies section to add a new currency for the pay grade
     And I choose MYR - Malaysian Ringgit for the currency of the pay grade
-    And I enter minimum salary <minSalary> for the pay grade
-    And I enter maximum salary <maxSalary> for the pay grade
+    And I enter minimum salary <minSalary> for the pay grade and I enter maximum salary <maxSalary> for the pay grade
     And I click Save button to save the currency for the pay grade
     Then I successfully added the new currency and verify the currency <verifyCurrency> in the currency records
     When I click Cancel button on the edit pay grade section

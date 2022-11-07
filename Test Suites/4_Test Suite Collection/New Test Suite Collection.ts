@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/3_Master/TS3.2_Search invalid username of users</testSuiteEntity>
+         <testSuiteEntity>Test Suites/3_Master/TS3.3_Successfully add new user into OrangeHRM</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
