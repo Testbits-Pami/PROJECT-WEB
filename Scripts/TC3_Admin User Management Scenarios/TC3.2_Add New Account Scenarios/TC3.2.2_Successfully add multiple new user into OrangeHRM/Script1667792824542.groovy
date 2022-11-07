@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC1_Login Scenarios/TC1.1_Successfully login to Orange HRM'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('TC3_Admin User Management Scenarios/TC3.2_Add New Account Scenarios/TC3.2.1_Successfully add new user into OrangeHRM'), 
     [('userRole') : userRole, ('newEmployeeName') : newEmployeeName, ('userStatus') : userStatus, ('newUsername') : newUsername
         , ('newPwd') : newPwd, ('newEmployeeFirstName') : newEmployeeFirstName, ('datafile') : datafile, ('usedsheet') : usedsheet

@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>994d6432-857e-48ab-a6c8-e56ad1ef1404</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9072fdb-d94f-48ab-8c91-853634bfc1f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86a77bd5-abe3-4baf-975b-686972939b6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9072fdb-d94f-48ab-8c91-853634bfc1f6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Delete User'</defaultValue>
+      <description></description>
+      <id>86a77bd5-abe3-4baf-975b-686972939b6b</id>
+      <masked>false</masked>
+      <name>datafileInput</name>
+   </variable>
 </TestCaseEntity>
