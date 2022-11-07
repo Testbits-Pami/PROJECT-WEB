@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Yes, Delete</name>
+   <name>Button_Delete_Username</name>
    <tag></tag>
    <elementGuidId>87988e49-0ac4-42a2-9753-6198afb9b80c</elementGuidId>
    <selectorCollection>

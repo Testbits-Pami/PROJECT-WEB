@@ -37,13 +37,13 @@ for (def rowNum = 1; rowNum <= findTestData(datafileInput).getRowNumbers(); rowN
     WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.2_User_Search_Results_Section/RowResult_Username', 
             [('username') : username]), 0)
 
-    WebUI.click(findTestObject('Page_OrangeHRM/Checkbox_RowResult_Username', [('username') : username]))
+    WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.2_User_Search_Results_Section/Checkbox_RowResult_Username', [('username') : username]))
 
-    WebUI.click(findTestObject('Page_OrangeHRM/Button_TrashCan_RowResult_Username', [('username') : username]))
+    WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.2_User_Search_Results_Section/Button_TrashCan_RowResult_Username', [('username') : username]))
 
-    WebUI.waitForElementVisible(findTestObject('Page_OrangeHRM/button_Yes, Delete'), 3)
+    WebUI.waitForElementVisible(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.1_System_Users_Section/Button_Delete_Username'), 3)
 
-    WebUI.click(findTestObject('Page_OrangeHRM/button_Yes, Delete'))
+    WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.1_System_Users_Section/Button_Delete_Username'))
 
     WebUI.waitForElementVisible(findTestObject('0_Common/0.3_Toast/Toast_SuccessfullyDeleted'), 3)
 }
