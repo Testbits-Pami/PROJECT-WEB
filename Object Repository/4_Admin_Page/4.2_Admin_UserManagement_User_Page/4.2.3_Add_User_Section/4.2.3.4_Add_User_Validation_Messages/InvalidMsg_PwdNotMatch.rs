@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Passwords do not match</name>
+   <name>InvalidMsg_PwdNotMatch</name>
    <tag></tag>
    <elementGuidId>04606b1c-a8aa-46ce-b1c0-03454a2bb284</elementGuidId>
    <selectorCollection>

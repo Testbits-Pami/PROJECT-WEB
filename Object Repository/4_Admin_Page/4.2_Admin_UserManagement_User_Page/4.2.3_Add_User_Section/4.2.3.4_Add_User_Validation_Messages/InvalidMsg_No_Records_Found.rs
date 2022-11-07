@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_No Records Found</name>
+   <name>InvalidMsg_No_Records_Found</name>
    <tag></tag>
    <elementGuidId>2deafad9-02c2-4d11-90bf-fc20414aacdb</elementGuidId>
    <selectorCollection>

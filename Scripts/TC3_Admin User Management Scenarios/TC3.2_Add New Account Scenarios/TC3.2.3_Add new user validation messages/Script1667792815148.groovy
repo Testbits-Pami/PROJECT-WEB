@@ -51,26 +51,26 @@ WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_Us
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_Employee_Name'), 
     empName)
 
-WebUI.click(findTestObject('Page_OrangeHRM/div_No Records Found'))
+WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_No_Records_Found'))
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/span_Invalid'), InvalidMsg)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_Invalid'), InvalidMsg)
 
 userName = findTestData('Delete Single New User').getValue('Existing Username', 1)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Username'), 
     userName)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/span_Already exists'), InvalidUnameAlreadyExist)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_AlreadyExists'), InvalidUnameAlreadyExist)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Password'), 
     shortPwd)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/span_Should have at least 8 characters'), InvalidPwdEightCharas)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_PwdAtLeastEightChars'), InvalidPwdEightCharas)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Password'), 
     alphaPwd)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/span_Your password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different password'), 
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_AlphaNumErr'), 
     InvalidPwdFormat)
 
 WebUI.setEncryptedText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Password'), 
@@ -79,5 +79,5 @@ WebUI.setEncryptedText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_Use
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_ConfirmPwd'), 
     alphaPwd)
 
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/span_Passwords do not match'), InvalidPwdNotMatch)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_PwdNotMatch'), InvalidPwdNotMatch)
 

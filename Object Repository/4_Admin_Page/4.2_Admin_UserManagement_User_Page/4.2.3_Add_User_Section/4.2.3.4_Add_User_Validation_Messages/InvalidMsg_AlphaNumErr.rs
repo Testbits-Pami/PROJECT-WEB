@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Your password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different password</name>
+   <name>InvalidMsg_AlphaNumErr</name>
    <tag></tag>
    <elementGuidId>00cb62a1-584b-44cc-901b-8f64aaaa2439</elementGuidId>
    <selectorCollection>

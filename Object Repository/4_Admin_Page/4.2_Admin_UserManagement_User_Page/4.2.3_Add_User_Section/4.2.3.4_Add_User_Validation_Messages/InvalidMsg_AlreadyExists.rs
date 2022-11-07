@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Already exists</name>
+   <name>InvalidMsg_AlreadyExists</name>
    <tag></tag>
    <elementGuidId>df38a267-4f30-479b-8994-a1ed55bc8412</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>span.oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//span[(text() = 'Already exists' or . = 'Already exists')]</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[4]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

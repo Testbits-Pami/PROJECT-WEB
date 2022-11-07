@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Should have at least 8 characters</name>
+   <name>InvalidMsg_PwdAtLeastEightChars</name>
    <tag></tag>
    <elementGuidId>fd81be6d-51b7-47fd-8fdb-6880479341f4</elementGuidId>
    <selectorCollection>
