@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3.2.2_Successfully add multiple new user into OrangeHRM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1bc2c2d-188f-4bbc-9168-fd5ba20771de</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0a810f34-af76-4a11-982c-16e544e7ceef</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Add New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>User Role</value>
+      <variableId>a2bd5a43-3f84-4d44-afd4-5f07a05ef5f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Employee Name</value>
+      <variableId>d3ba5db3-eee1-44ff-84d1-88d5c027d325</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Status</value>
+      <variableId>43ae3f4d-90a7-4bfe-b9db-7b4e2d9eca34</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>b46f2124-11f3-4f58-ba43-004154df3027</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>2ccfcbd1-76d3-4017-8385-08b49ecee42f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Employee First Name</value>
+      <variableId>5793e316-95fd-4a86-b7e3-63394efb2fd8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2bd5a43-3f84-4d44-afd4-5f07a05ef5f2</id>
+      <masked>false</masked>
+      <name>userRole</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3ba5db3-eee1-44ff-84d1-88d5c027d325</id>
+      <masked>false</masked>
+      <name>newEmployeeName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43ae3f4d-90a7-4bfe-b9db-7b4e2d9eca34</id>
+      <masked>false</masked>
+      <name>userStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b46f2124-11f3-4f58-ba43-004154df3027</id>
+      <masked>false</masked>
+      <name>newUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ccfcbd1-76d3-4017-8385-08b49ecee42f</id>
+      <masked>false</masked>
+      <name>newPwd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5793e316-95fd-4a86-b7e3-63394efb2fd8</id>
+      <masked>false</masked>
+      <name>newEmployeeFirstName</name>
+   </variable>
+</TestCaseEntity>

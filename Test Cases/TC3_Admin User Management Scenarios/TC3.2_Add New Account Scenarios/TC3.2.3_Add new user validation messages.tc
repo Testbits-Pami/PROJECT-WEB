@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC3.2.2_Add new user validation messages</name>
+   <name>TC3.2.3_Add new user validation messages</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c90b583e-52b9-4f9e-bb27-6003a7a2c931</testCaseGuid>

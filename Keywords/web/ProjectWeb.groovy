@@ -6,6 +6,11 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+import org.apache.poi.ss.usermodel.Cell
+import org.apache.poi.ss.usermodel.Row
+import org.apache.poi.xssf.usermodel.XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -22,17 +27,17 @@ import com.kms.katalon.entity.global.GlobalVariableEntity
 import internal.GlobalVariable
 
 public class ProjectWeb {
-	
-	def index = 1
-	
+
 	@Keyword
-	public populateGlobalList(String username) {
-		GlobalVariable.usernameList.add(username)
+	public void writeUnameToExcel(String datapath, String usedsheet, String username, int rowNum) throws IOException{
+		FileInputStream fis = new FileInputStream(datapath)
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet(usedsheet)
+		Row row = sheet.getRow(rowNum)
+		Cell cell = row.createCell(0)
+		cell.setCellValue(username)
+		FileOutputStream fos = new FileOutputStream(datapath)
+		workbook.write(fos)
+		fos.close()
 	}
-	
-	@Keyword
-	public writeUsernameListToExcel() {
-		File file = new File()
-	}
-	
 }

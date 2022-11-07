@@ -5,50 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7597f596-638a-407f-9fa9-ae1cab10e9bd</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>0a810f34-af76-4a11-982c-16e544e7ceef</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Add New User</testDataId>
-   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>User Role</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>5518db45-c848-4adc-a0fc-1055f6d3f913</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Employee Name</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>95844d06-c5fa-4cf8-aa49-78684d68dc33</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Status</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>877b9922-37b9-4a39-9784-d59642ad0154</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Username</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>9865ab6b-0c4d-4974-82c3-90799993ea88</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Password</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>88380595-d880-4b89-8c55-51c333e61536</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>0a810f34-af76-4a11-982c-16e544e7ceef</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Employee First Name</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>888308c5-032d-496d-8dda-5553d7d0397a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05b778d9-e51f-451f-b15b-ad03e016b9c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e27aaa43-2fb3-4e90-bc8c-df1fc72ae251</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -91,5 +94,19 @@
       <id>888308c5-032d-496d-8dda-5553d7d0397a</id>
       <masked>false</masked>
       <name>newEmployeeFirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Delete Employees Excel (Single).xlsx'</defaultValue>
+      <description></description>
+      <id>05b778d9-e51f-451f-b15b-ad03e016b9c7</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sheet1'</defaultValue>
+      <description></description>
+      <id>e27aaa43-2fb3-4e90-bc8c-df1fc72ae251</id>
+      <masked>false</masked>
+      <name>usedsheet</name>
    </variable>
 </TestCaseEntity>
