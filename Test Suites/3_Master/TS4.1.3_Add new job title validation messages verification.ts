@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC4.1.3_Add new job title validation messages verification</name>
+   <name>TS4.1.3_Add new job title validation messages verification</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -105,13 +105,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2f9e230-99b0-4bf6-ab59-c317bda69dc6</guid>
+      <guid>a6404b23-c266-4706-bf00-a63f85167350</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC4_Admin Job Scenarios/TC4.2_Delete Job Titles Scenarios/TC4.2.1_Successfully delete a job title</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9da567e9-0abd-43e3-9baa-4a009ae90fb8</id>
+         <id>10e16c1f-f2ff-40d6-8364-2ea69bb287c3</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -120,7 +120,7 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>9da567e9-0abd-43e3-9baa-4a009ae90fb8</testDataLinkId>
+         <testDataLinkId>10e16c1f-f2ff-40d6-8364-2ea69bb287c3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Job Title</value>
          <variableId>05da6f78-9ae6-41c5-953d-738e57d869ff</variableId>
