@@ -53,6 +53,12 @@
       <value></value>
       <variableId>e27aaa43-2fb3-4e90-bc8c-df1fc72ae251</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d26da3ec-532c-4a1a-be8c-b9be208f7b9f</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -108,5 +114,12 @@
       <id>e27aaa43-2fb3-4e90-bc8c-df1fc72ae251</id>
       <masked>false</masked>
       <name>usedsheet</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add Single New User'</defaultValue>
+      <description></description>
+      <id>d26da3ec-532c-4a1a-be8c-b9be208f7b9f</id>
+      <masked>false</masked>
+      <name>datafileInput</name>
    </variable>
 </TestCaseEntity>
