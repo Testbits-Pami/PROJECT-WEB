@@ -86,6 +86,12 @@
       <value></value>
       <variableId>4955594e-37c7-4dfa-899a-e9f12626f43a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c856a224-b067-4505-a0fe-08e628172035</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Required'</defaultValue>
       <description></description>
@@ -169,5 +175,12 @@
       <id>4955594e-37c7-4dfa-899a-e9f12626f43a</id>
       <masked>false</masked>
       <name>validPwd</name>
+   </variable>
+   <variable>
+      <defaultValue>'RI'</defaultValue>
+      <description></description>
+      <id>c856a224-b067-4505-a0fe-08e628172035</id>
+      <masked>false</masked>
+      <name>shortUname</name>
    </variable>
 </TestCaseEntity>

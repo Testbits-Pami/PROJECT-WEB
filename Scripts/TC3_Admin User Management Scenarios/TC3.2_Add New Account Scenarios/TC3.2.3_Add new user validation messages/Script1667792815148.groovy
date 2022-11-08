@@ -53,19 +53,31 @@ WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.
 
 WebUI.click(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_No_Records_Found'))
 
-WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_Invalid'), InvalidMsg)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_Invalid'), 
+    InvalidMsg)
 
 userName = findTestData('Delete Single New User').getValue('Existing Username', 1)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Username'), 
+    shortUname)
+
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/Invalid_UnameAtLeastFiveCharas'), 
+    InvalidUnameFiveCharas)
+
+WebUI.sendKeys(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Username'), 
+    Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Username'), 
     userName)
 
-WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_AlreadyExists'), InvalidUnameAlreadyExist)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_AlreadyExists'), 
+    InvalidUnameAlreadyExist)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Password'), 
     shortPwd)
 
-WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_PwdAtLeastEightChars'), InvalidPwdEightCharas)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_PwdAtLeastEightChars'), 
+    InvalidPwdEightCharas)
 
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_Password'), 
     alphaPwd)
@@ -79,5 +91,6 @@ WebUI.setEncryptedText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_Use
 WebUI.setText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/Input_NewUser_ConfirmPwd'), 
     alphaPwd)
 
-WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_PwdNotMatch'), InvalidPwdNotMatch)
+WebUI.verifyElementText(findTestObject('4_Admin_Page/4.2_Admin_UserManagement_User_Page/4.2.3_Add_User_Section/4.2.3.4_Add_User_Validation_Messages/InvalidMsg_PwdNotMatch'), 
+    InvalidPwdNotMatch)
 
